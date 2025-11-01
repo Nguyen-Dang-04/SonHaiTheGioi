@@ -24,6 +24,7 @@ Dự án game hành động 2D pixel-art kết hợp hệ thống AI hội tho�
   pip install -r requirements.txt
   uvicorn app:app --reload
 - **Lệnh chạy backend:**
+  ```bash
   cd game-ai
   .\.venv\Scripts\activate
   python -m uvicorn app:app --reload
