@@ -16,15 +16,23 @@ Dự án game hành động 2D pixel-art kết hợp hệ thống AI hội tho�
 - **Framework:** FastAPI  
 - **Thư mục:** `game-ai/`  
 - **Chức năng:** Xử lý hội thoại AI giữa người chơi và NPC trong game.  
-- **Cách chạy backend:**
-  ```bash
-  cd game-ai
-  python -m venv .venv
-  .venv\Scripts\activate
-  pip install -r requirements.txt
-  uvicorn app:app --reload
-- **Lệnh chạy backend:**
-  ```bash
-  cd game-ai
-  .\.venv\Scripts\activate
-  python -m uvicorn app:app --reload
+
+---
+
+## 🧠 Cách chạy backend
+
+### 🩵 Lần đầu tiên (chạy để cài đặt môi trường)
+> Thực hiện **Lần đầu tiên** khi bạn mới clone repo hoặc vừa cài lại Python
+
+```bash
+cd D:\DuAnUnity\SonHaiTheGioi\game-ai
+python -m venv .venv
+.\.venv\Scripts\Activate.ps1
+pip install -r requirements.txt
+python -m uvicorn app:app --reload --port 8000
+
+### 🩵 Những lần sau (chạy để cài đặt môi trường)
+> Thực hiện **Những lần sau**
+cd D:\DuAnUnity\SonHaiTheGioi\game-ai
+.\.venv\Scripts\Activate.ps1
+python -m uvicorn app:app --reload --port 8000  
