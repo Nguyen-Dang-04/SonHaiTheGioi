@@ -47,3 +47,5 @@ Thumbs.db
 # === EDITORS ===
 .vscode/
 .idea/
+
+UnityProject/UpgradeLog*.htm
