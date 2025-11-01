@@ -1,0 +1,258 @@
+{
+  "ten_game": "Sơn Hải Thế Giới",
+  "mo_ta": "Một thế giới rộng lớn nơi linh khí và ma lực giao hòa, người chơi hóa thân thành Du Thiên Lạc trong hành trình khám phá Sơn Hải Thế Giới.",
+  "cot_truyen": "Tại trung tâm Sơn Hải Thế Giới tồn tại một Cây Ngàn Năm, nơi phong ấn Ma Thần kẻ từng khiến cả thế giới rung chuyển. Qua hàng ngàn năm yên bình, phong ấn dần suy yếu, và trong một ngày định mệnh, Ma Thần đã phá vỡ xiềng xích, thoát khỏi phong ấn cổ xưa. Sự trở lại của hắn khiến các cánh cổng Ma Giới đồng loạt mở ra, ma khí tràn ngập khắp đất trời. Ma thú trỗi dậy, sinh vật và con người bị ma lực ăn mòn, biến thành những hình thù quái dị. Giữa hỗn loạn ấy, một vị pháp sư thần bí đã xuất hiện, dùng sức mạnh của mình tạm thời phong tỏa ma khí, giữ lại chút trật tự cho thế giới rồi biến mất không dấu vết. Trong thời khắc tăm tối đó, Du Thiên Lạc một kiếm sĩ trẻ của nhân tộc, đã lên đường chiến đấu. Mang trong mình sứ mệnh tiêu diệt ma thú, ngăn chặn sự tái sinh hoàn toàn của Ma Thần và tìm kiếm vị pháp sư để phong ấn hắn vĩnh viễn. Cuộc hành trình bắt đầu tại tàn tích Cây Ngàn Năm nơi mọi bí ẩn khởi nguồn và cũng là nơi định đoạt vận mệnh của Sơn Hải Thế Giới.",
+  "nhan_vat_chinh": {
+    "ten": "Du Thiên Lạc",
+    "vai_tro": "Nhân vật chính cũng là người chơi",
+    "he": "Nhân tộc",
+    "gioi_tinh": "Nam",
+    "mo_ta": "Kiếm sĩ du hành khám phá thế giới, gánh sứ mệnh thanh tẩy Sơn Hải Thế Giới.",
+    "ky_nang": [
+      {
+        "ten": "Đánh Thường",
+        "loai": "cận chiến",
+        "tieu_hao_nang_luong": 0,
+        "hoi_chieu": 0.0,
+        "sat_thuong_co_ban": { "min": 5, "max": 10 },
+        "nang_cap_bang_vang": {
+          "gia_co_ban": 100,
+          "he_so_gia_moi_cap": 1.4,
+          "tang_sat_thuong_moi_cap": 5,
+          "kieu_tang": "cộng",
+          "ghi_chu": "Mỗi cấp tăng thêm 5 sát thương vào cả min và max."
+        },
+        "mo_ta": "Đòn chém cơ bản của Du Thiên Lạc, sử dụng vũ khí chính để tấn công cận chiến.",
+        "nang_cap": ["Tăng sát thương"]
+      },
+      {
+        "ten": "Lướt",
+        "loai": "di chuyển",
+        "tieu_hao_nang_luong": 10,
+        "hoi_chieu": 2.0,
+        "mo_ta": "Lướt nhanh né sát thương và vượt chướng ngại."
+      },
+      {
+        "ten": "Lướt Đâm",
+        "loai": "kỹ năng tấn công",
+        "tieu_hao_nang_luong": 15,
+        "hoi_chieu": 2.0,
+        "sat_thuong": { "min": 15, "max": 20 },
+        "nang_cap_bang_vang": {
+          "gia_co_ban": 100,
+          "he_so_gia_moi_cap": 1.4,
+          "tang_sat_thuong_moi_cap": 5,
+          "kieu_tang": "cộng",
+          "ghi_chu": "Mỗi cấp tăng thêm 5 sát thương vào cả min và max."
+        },
+        "mo_ta": "Lướt xuyên mục tiêu, gây sát thương trên đường đâm.",
+        "nang_cap": ["Tăng sát thương"]
+      },
+      {
+        "ten": "Phóng Phi Tiêu",
+        "loai": "tầm xa",
+        "tieu_hao_nang_luong": 10,
+        "hoi_chieu": 2.0,
+        "sat_thuong": { "min": 10, "max": 15 },
+        "nang_cap_bang_vang": {
+          "gia_co_ban": 100,
+          "he_so_gia_moi_cap": 1.4,
+          "tang_sat_thuong_moi_cap": 5,
+          "kieu_tang": "cộng",
+          "ghi_chu": "Mỗi cấp tăng thêm 5 sát thương vào cả min và max."
+        },
+        "mo_ta": "Ném phi tiêu gây sát thương khi trúng.",
+        "nang_cap": ["Tăng sát thương"]
+      },
+      {
+        "ten": "Phòng Thủ",
+        "loai": "phòng ngự",
+        "tieu_hao_nang_luong": 0,
+        "luot_phong_thu": {
+          "toi_da": 1,
+          "hoi_tu_dong": true,
+          "thoi_gian_hoi_moi_Luot_phong_thu": 2.0
+        },
+        "nang_cap_bang_vang": {
+          "gia_co_ban": 200,
+          "he_so_gia_moi_cap": 1.5,
+          "tang_Luot_phong_thu_moi_cap": 1,
+          "kieu_tang": "cộng",
+          "ghi_chu": "Mỗi cấp tăng thêm 1 lượt phòng thủ tối đa."
+        },
+        "mo_ta": "Giơ kiếm đỡ đòn, tiêu thụ 1 lượt phòng thủ khi đỡ thành công.",
+        "nang_cap": ["Tăng số lượt phòng thủ"]
+      },
+      {
+        "ten": "Totem",
+        "loai": "kỹ năng hỗ trợ",
+        "tieu_hao_nang_luong": 10,
+        "hoi_chieu": 10.0,
+        "mo_ta": "Triệu hồi hỗ trợ phát sáng khu vực một thời gian."
+      },
+      {
+        "ten": "Nhảy",
+        "loai": "di chuyển",
+        "tieu_hao_nang_luong": 0,
+        "hoi_chieu": 0.0,
+        "mo_ta": "Nhảy cơ bản."
+      },
+      {
+        "Ki_nang_bi_dong": "Hồi năng 1 năng lượng mỗi giây."
+      }
+    ]
+  },
+  "nhan_vat_phu": [
+    {
+  "ten": "Nguyên Thần Huyền Nguyệt",
+  "gioi_tinh": "Nữ",
+  "vai_tro": "Nhân vật hướng dẫn",
+  "he": "Tiên tộc",
+  "ky_nang": ["Đại Đạo Chi Tâm"],
+  "mo_ta": "Bản thể tối thượng của tam tiên nữ: Nguyệt Hoa Thánh Tâm, Tuyết Liên Thánh Tâm, Hồng Vân Thánh Tâm. Bị phân tách và phong ấn trong Tháp Phong Ấn.",
+  "trang_thai": "Đã thoát phong ấn nhờ Du Thiên Lạc",
+  "ban_the_cua": true,
+  "phan_than": [
+    {
+      "ten": "Nguyệt Hoa Thánh Tâm",
+      "he": "Tiên tộc",
+      "mo_ta": "Bản thể của Nguyên Thần Huyền Nguyệt chứa đựng quyền năng minh triết và dẫn lối, soi tỏ huyền cơ Sơn Hải.",
+      "trang_thai": "Bị phong ấn",
+      "vi_tri_phong_an": "khu vực 1."
+    },
+    {
+      "ten": "Tuyết Liên Thánh Tâm",
+      "he": "Tiên tộc",
+      "mo_ta": "Bản thể của Nguyên Thần Huyền Nguyệt khả năng thanh tịnh và hồi nguyên, gột rửa ma khí.",
+      "trang_thai": "Bị phong ấn",
+      "vi_tri_phong_an": "Khu vực 2"
+    },
+    {
+      "ten": "Hồng Vân Thánh Tâm",
+      "he": "Tiên tộc",
+      "mo_ta": "Bản thể của Nguyên Thần Huyền Nguyệt có khí vận và chiến ý, như mây hồng dâng trào.",
+      "trang_thai": "Bị phong ấn",
+      "vi_tri_phong_an": "Khu vực 3"
+    }
+  ],
+  "co_che_giai_an": {
+    "mo_ta": "Giải ấn đủ 3 Thánh Tâm sẽ hợp nhất lại thành Nguyên Thần Huyền Nguyệt.",
+    "yeu_cau": [
+      "Thanh tẩy kết giới từng tầng của Tháp Phong Ấn",
+      "Đánh bại thủ hộ từng tầng",
+      "Kích hoạt 3 bia trận pháp theo đúng trật tự"
+    ],
+    "phan_thuong_theo_tung_phan_than": [
+      { "ten": "Nguyệt Hoa Thánh Tâm", "tac_dung": ["+10% sát thương ma thuật", "+15% tầm nhìn ảo ảnh"] },
+      { "ten": "Tuyết Liên Thánh Tâm", "tac_dung": ["+20% tốc độ hồi năng lượng", "+10% kháng ma lực"] },
+      { "ten": "Hồng Vân Thánh Tâm", "tac_dung": ["+8% bạo kích", "+10% sát thương khi trên 80% máu"] }
+    ],
+    "hop_nhat": {
+      "tac_dung": ["Mở nhiệm vụ phong ấn Ma Thần lần cuối", "Mở khóa nâng cấp bậc S cho kỹ năng pháp trận"]
+    }
+  }
+},
+    {
+      "ten": "Yên Nhiên",
+      "gioi_tinh": "Nữ",
+      "vai_tro": "Nhân vật giúp nâng cấp sát thương",
+      "he": "Nhân tộc",
+      "mo_ta": "Một nữ chiến binh mạnh mẽ tinh thông kiếm thuật."
+    },
+    {
+      "ten": "Linh Âm",
+      "gioi_tinh": "Nữ",
+      "vai_tro": "Nhân vật giúp nâng cấp sát thương ma thuật và trang bị kĩ năng",
+      "he": "Nhân tộc",
+      "mo_ta": "Một nữ nhân tộc xinh đẹp hiểu biết về ma thuật."
+    },
+    {
+      "ten": "Trầm Phong",
+      "gioi_tinh": "Nam",
+      "vai_tro": "Nhân vật giúp nâng cấp sức mạnh thể chất và năng lượng",
+      "he": "Tiên tộc",
+      "mo_ta": "Tiên tộc bị nhiễm ma thuật nhưng giữ được ý chí và biến nó thành sức mạnh."
+    },
+    {
+      "ten": "Chân Quân",
+      "gioi_tinh": "Nam",
+      "vai_tro": "Nhân vật hỗ trợ tập luyện",
+      "he": "Nhân tộc",
+      "mo_ta": "Một chiến binh già lão luyện có nhiều kinh nghiệm chiến đấu với ma thú."
+    }
+  ],
+  "thu_linh": [
+    {
+      "ten": "Xương Vương",
+      "ky_nang": ["Tái sinh một lần", "Nhát Chém Gió", "Tăng tốc độ tấn công và sát thương khi dưới 50% máu"],
+      "mo_ta": "Boss tại map 3, kẻ thống trị linh hồn vùng đất chết. Rớt vật phẩm kỹ năng Nhát Chém Gió.",
+      "mau": 135,
+      "sat_thuong": 33
+    }
+  ],
+  "ma_thu": [
+    {
+      "ten": "Ma Xương",
+      "ky_nang": ["Chém xuống"],
+      "mau_co_ban": 40,
+      "sat_thuong_co_ban": 10,
+      "mo_ta": "Những xác chết người dân bị ma lực hóa thành. Khi bị đánh có thể rớt vàng hoặc thuốc hồi phục. Máu và sát thương tăng theo từng khu vực."
+    },
+    {
+      "ten": "Xương Chiến Binh",
+      "ky_nang": ["Chém ngang"],
+      "mau_co_ban": 60,
+      "sat_thuong_co_ban": 15,
+      "mo_ta": "Chiến binh sống lại nhờ ma lực của Xương Vương, mạnh hơn và thông minh hơn Ma Xương. Khi bị đánh có thể rớt vàng hoặc thuốc hồi phục. Máu và sát thương tăng theo từng khu vực."
+    },
+    {
+      "ten": "Nấm Biến Dị",
+      "ky_nang": ["Húc đầu"],
+      "mau_co_ban": 30,
+      "sat_thuong_co_ban": 20,
+      "mo_ta": "Sinh vật đột biến do hấp thụ ma lực. Khi bị đánh có thể rớt vàng hoặc thuốc hồi phục. Máu và sát thương tăng theo từng khu vực."
+    },
+    {
+      "ten": "Ma Dơi",
+      "ky_nang": ["Cào", "Cắn ×2 sát thương"],
+      "mau_co_ban": 25,
+      "sat_thuong_co_ban": 5,
+      "mo_ta": "Sinh vật bị nhiễm ma lực. Khi bị đánh có thể rớt vàng hoặc thuốc hồi phục. Máu và sát thương tăng theo từng khu vực."
+    },
+    {
+      "tang_truong_theo_khu_vuc":"ma thú tăng sát thương và máu +50% theo khu vực"
+    }
+  ],
+  "vat_pham": [
+    {
+      "ten": "Đan dược Hồi Máu",
+      "tac_dung": "Hồi 20% máu tối đa cho người chơi.",
+      "mo_ta": "Vật phẩm rớt ra từ các ma thú."
+    },
+    {
+      "ten": "Đan dược Năng Lượng",
+      "tac_dung": "Phục hồi 20% năng lượng để sử dụng kỹ năng.",
+      "mo_ta": "Vật phẩm rớt ra từ các ma thú."
+    }
+  ],
+  "khu_vuc": [
+  {
+    "ten": "Tàn Tích Cây Ngàn Năm",
+    "loai": "trung_tam",
+    "mo_ta": "Khu vực trung tâm nơi Du Thiên Lạc bắt đầu hành trình. Là điểm giao giữa nhân giới và ma giới.",
+    "co_the_quay_ve": true,
+    "diem_noi_bat": [
+      "Có tháp Phong Ấn giam giữ Nguyên Thần Huyền Nguyệt.",
+      "Tháp Hồi Máu hồi phục toàn bộ sinh lực và năng lượng.",
+      "Cổng Dịch Chuyển dẫn đến các khu vực Ma Giới khác.",
+      "Các nhân vật Yên Nhiên, Linh Âm, Trầm Phong và Chân Quân đều trú tại đây, hỗ trợ người chơi."
+    ],
+    "chuc_nang": [
+      "Bắt đầu hành trình.",
+      "Hồi phục và nâng cấp kỹ năng.",
+      "Dịch chuyển đến các khu vực khác.",
+      "Trở về sau khi hoàn thành hoặc rút lui khỏi Ma Giới."
+    ]
+  }
+  ]
+}
