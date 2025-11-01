@@ -30,9 +30,11 @@ python -m venv .venv
 .\.venv\Scripts\Activate.ps1
 pip install -r requirements.txt
 python -m uvicorn app:app --reload --port 8000
+```
+> Thực hiện **Những lần sau** để chạy
 
-### 🩵 Những lần sau (chạy để cài đặt môi trường)
-> Thực hiện **Những lần sau**
+```bash
 cd D:\DuAnUnity\SonHaiTheGioi\game-ai
 .\.venv\Scripts\Activate.ps1
 python -m uvicorn app:app --reload --port 8000  
+```bash
