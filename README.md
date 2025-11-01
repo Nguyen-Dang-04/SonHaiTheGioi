@@ -35,4 +35,4 @@ python -m uvicorn app:app --reload --port 8000
 cd D:\DuAnUnity\SonHaiTheGioi\game-ai
 .\.venv\Scripts\Activate.ps1
 python -m uvicorn app:app --reload --port 8000  
-```bash
+```
