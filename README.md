@@ -20,8 +20,6 @@ Dự án game hành động 2D pixel-art kết hợp hệ thống AI hội tho�
 ---
 
 ## 🧠 Cách chạy backend
-
-### 🩵 Lần đầu tiên (chạy để cài đặt môi trường)
 > Thực hiện **Lần đầu tiên** khi bạn mới clone repo hoặc vừa cài lại Python
 
 ```bash
